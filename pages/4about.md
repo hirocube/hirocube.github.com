@@ -31,6 +31,7 @@ LOL“资深黄金”玩家一枚：恕瑞玛 **Evii** 。向来不喜欢用稀�
 
 * email：[{{ site.email }}](mailto:{{ site.email }})
 * QQ：503514213 (很2的QQ号，但因为是老号了所以舍不得丢)
+* LOL: 恕瑞玛 **Evii**
 
 
 ---
