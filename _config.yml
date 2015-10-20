@@ -1,0 +1,45 @@
+permalink: /:year-:month-:day/:title/
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [
+   "no_intra_emphasis"
+   ,"fenced_code_blocks"
+   ,"autolink"
+   ,"tables"
+   ,"strikethrough"
+   ,"superscript"
+   ,"with_toc_data"
+   ,"footnotes"
+   ,"highlight"
+   ,"underline"
+   ,"quote"
+   ,"lax_spacing"
+   ,"prettify"
+#   ,"html_toc"
+  ]
+
+
+
+paginate: 10
+paginate_path: ":num"
+baseurl: ""
+
+
+
+title: "Hiro"
+email: "hellohiro@163.com"
+description: "略显文艺范的程序员"
+github_username:  "hirocube"
+swiftype_searchId: "Wu_XUQasxozoKT1tynkY"
+disqus_shortname: "hirocube"
+website_url: "hirocube.github.io"
+
+
+
+#url: "http://blog.rainyalley.com"
+imgrepo: "/static/img"
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
+
