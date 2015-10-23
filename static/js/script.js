@@ -6,11 +6,10 @@
  * 页面ready方法
  */
 $(document).ready(function() {
-
-    console.log("你不乖哦，彼此之间留点神秘感不好吗？");
-
-    backToTop();
     search();
+	initLink();
+	backToTop();
+	console.log("hello，欢迎光临，很高兴认识你");
 });
 
 /**
@@ -49,6 +48,11 @@ function search(){
     })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
     _st('install','{{site.swiftype_searchId}}','2.0.0');
+}
+
+function initLink(){
+	//为超链接加上target='_blank'属性
+	$('.content a[href^="http"]').attr('target','_blank');
 }
 
 
