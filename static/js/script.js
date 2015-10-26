@@ -35,7 +35,7 @@ function backToTop() {
     st.click(function() {
         $("body").animate({
             scrollTop: "0"
-        }, 500);
+        }, 850);
     });
 
 
