@@ -41,8 +41,8 @@ LOL“资深黄金”玩家一枚：恕瑞玛 **Evii** 。向来不喜欢用稀�
 这个博客没有什么主要想要记录的，我想记录的都会尽量整理记录到这，无论是技术还是心情。
 
 
-   
-* 2015.10          |  从[疏楼龙宿](http://blog.rainyalley.com/)大神处得到了这个模板，感谢分享。
+* 2015.10          |  发布了第一篇博客。
+* 2015.10          |  从 [疏楼龙宿](http://blog.rainyalley.com/) 大神处得到了这个模板，感谢分享。
 
   
 
@@ -50,7 +50,7 @@ LOL“资深黄金”玩家一枚：恕瑞玛 **Evii** 。向来不喜欢用稀�
 
 #### 友情链接
 
-[dubuyuye](http://blog.rainyalley.com/)
+[疏楼龙宿](http://blog.rainyalley.com/)
 
 Comment below to exchange link with me.  
 
