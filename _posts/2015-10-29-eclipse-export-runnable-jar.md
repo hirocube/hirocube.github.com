@@ -8,7 +8,7 @@ excerpt: 使用Eclipse自带的导出功能将工程打包成一个可以执行�
 
 # Java实例程序
 
-写一个Java类，该类必须包含```public static void main(String[] args) throws Exception```方法。
+新建一个Jave Project，写一个Java类，该类必须包含```public static void main(String[] args) throws Exception```方法。
 
 {% highlight Java %}
 import org.apache.log4j.Logger;
@@ -28,6 +28,9 @@ public class JsoupTest {
 {% endhighlight %}
 
 # 导出成可执行的Jar文件
+
+## 使用Eclipse自带的导出功能
+	
 
 1. 右键需要导出的工程，选择```导出```
 	
@@ -60,7 +63,6 @@ public class JsoupTest {
 	> 你也可以右键生成的jar包，选择使用Java来打开，区别就是这种方式不会显示控制台。
 	
 	
-	
 	在生成的jar包同级目录新建一个start.txt，打开并编辑：
 	
 		java -jar JsoupTest3.jar "world"
@@ -82,6 +84,22 @@ public class JsoupTest {
 	
 	如果是多个参数，使用 args[参数次序-1]就可以获得
 	
-9. 老板eclipse打包成可执行jar包
+	&#160;
+	
+## 使用 FatJar 插件打包
 
-	旧版本eclipse如何将工程打包成可执行的jar包，可以使用 fatjar 插件，具体移步 [这里](http://my.oschina.net/cloudcoder/blog/285047)
+> 相比Eclipse自带的导出功能，FatJar 功能更为强大。 也可以在旧版本的eclipse上使用。
+	
+旧版本eclipse如何将工程打包成可执行的jar包，可以使用 fatjar 插件，具体移步 ***[这里](http://my.oschina.net/cloudcoder/blog/285047)***
+
+&#160;
+
+# 导出并生成 exe 程序
+
+> Java可以将二进制程序打包成可执行jar文件，双击这个jar和双击exe效果是一样一样的，但感觉还是不同。打包成exe也需要这个可执行jar文件
+
+具体请参考这里: [http://www.cnblogs.com/icewee/articles/2073203.html](http://www.cnblogs.com/icewee/articles/2073203.html)
+
+&#160;
+
+
